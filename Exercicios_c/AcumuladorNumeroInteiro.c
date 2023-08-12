@@ -1,3 +1,8 @@
+//Este programa solicita que o usuário insira valores inteiros repetidamente. 
+//Ele acumula esses valores em uma variável soma e exibe a soma acumulada a cada iteração. 
+//O loop infinito é interrompido quando o scanf não atribui um valor inteiro com sucesso, ou seja, 
+//quando o usuário insere algo que não é um número inteiro. Com exemplo o 0 (zero).
+
 #include <stdio.h>
 #include <locale.h>
 #define true 1
@@ -20,7 +25,7 @@ int main (){
 	
 	}
 		
-		return 0;
+	return 0;
 }
 
 
