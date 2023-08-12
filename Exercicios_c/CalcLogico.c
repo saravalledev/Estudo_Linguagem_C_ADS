@@ -1,3 +1,5 @@
+// o programa calcula o valor da expressão lógica !(i-j) + 1, onde i e j são iguais a 7, e imprime o resultado (que é 2) na saída do console.
+
 #include <stdio.h>
 #include <locale.h>
 
