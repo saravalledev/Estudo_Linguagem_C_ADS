@@ -1,3 +1,5 @@
+//O programa calcula o valor da expressão lógica !!i - !j + 10 e imprime o resultado (que é 10) na saída do console.
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -12,7 +14,7 @@ int main (){
 	
 	result = !!i - !j + 10; // == 11
 	
-	// !!i � diferente de 0 que � true(0)
+	// !!i é diferente de 0 que é true(0)
 	// ! transforma em 0 
 	// !! transforma 0 em 1
 	
